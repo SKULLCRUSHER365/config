@@ -1,0 +1,13 @@
+server:
+  port: 3001
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5001/naruto
+    username: parchaa
+    password: parchaa123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
