@@ -11,4 +11,4 @@ server:
 
 application:
   config:
-    payment-url: naruto:3002
+    naruto: naruto:3002
