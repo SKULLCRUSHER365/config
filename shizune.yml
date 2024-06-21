@@ -11,4 +11,4 @@ server:
 
 application:
   config:
-    payment-url: http://NARUTO
+    payment-url: NARUTO
