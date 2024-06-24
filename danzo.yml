@@ -2,7 +2,7 @@ server:
   port: 3004
 spring:
   datasource:
-    url: jdbc:postgresql://loaclhost:5001/danzo
+    url: jdbc:postgresql://loaclhost:5432/danzo
     username: parchaa
     password: parchaa123
   jpa:
