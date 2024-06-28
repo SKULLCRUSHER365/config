@@ -2,7 +2,7 @@ server:
   port: 3002
 spring:
   datasource:
-    url: jdbc:postgresql://postgres-naruto:5001/naruto
+    url: jdbc:postgresql://postgres-naruto.parchaa-hip:5001/naruto
     username: parchaa
     password: parchaa123
   jpa:
