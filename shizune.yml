@@ -15,4 +15,4 @@ server:
 
 application:
   config:
-    naruto: naruto:3002
+    naruto: naruto.parchaa-hip:3002
