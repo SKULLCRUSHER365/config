@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql:http://postgres-susanoo.parchaa-hip:5000/susanoo
+    url: jdbc:postgresql://postgres-susanoo.parchaa-hip:5000/susanoo
     username: parchaa
     password: parchaa123
     driver-class-name: org.postgresql.Driver
