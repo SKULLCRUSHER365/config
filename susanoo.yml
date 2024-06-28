@@ -2,11 +2,17 @@ environment:
   secretKey: 3b0f41529a067b92f495d0c577fd7ea0ce02e12a6b4eac313770b32e6556285a20563b12bc4072e22c1d1f47e91c1d106afd40921f9996997e3d349a4a2d3946db9d0b7242231acf788ceb1e6427b968
 server:
   port: 2999
+
 spring:
   datasource:
     url: jdbc:postgresql://postgres-susanoo.parchaa-hip:5000/susanoo
     username: parchaa
     password: parchaa123
+    driver-class-name: org.postgresql.Driver
   jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
+
