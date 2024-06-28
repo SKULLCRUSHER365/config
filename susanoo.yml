@@ -4,7 +4,7 @@ server:
   port: 2999
 spring:
   datasource:
-    url: jdbc:postgresql://postgres-susanoo:5000/susanoo
+    url: jdbc:postgresql://postgres-susanoo.parchaa-hip:5000/susanoo
     username: parchaa
     password: parchaa123
   jpa:
