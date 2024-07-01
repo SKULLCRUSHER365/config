@@ -3,3 +3,12 @@ server:
 
 secret:
   key: 3b0f41529a067b92f495d0c577fd7ea0ce02e12a6b4eac313770b32e6556285a20563b12bc4072e22c1d1f47e91c1d106afd40921f9996997e3d349a4a2d3946db9d0b7242231acf788ceb1e6427b968
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
