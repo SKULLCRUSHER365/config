@@ -3,7 +3,7 @@ server:
   port: 3004
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/sakura
+    url: jdbc:postgresql://postgres-sakura.parchaa-hip:5432/sakura
     username: parchaa
     password: parchaa123
     driver-class-name: org.postgresql.Driver
